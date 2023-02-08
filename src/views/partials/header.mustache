@@ -12,7 +12,7 @@
     <div class="container">
         <a href="/">ListBeers</a>
         <form method="GET" action="/search">
-            <input type="search" name="q" placeholder="Pesquisa" />
+            <input type="search" name="q" placeholder="Pesquisa por nome" value= "{{query}}" />
         </form>
     </div>
 </header>
@@ -21,6 +21,7 @@
         <li class="active"><a href="/">Todas</a></li>
         <li class=""><a href="/pilsen">Pilsen</a></li>
         <li class=""><a href="/ipa">IPA</a></li>
+        <li class=""><a href="/witbier">Witbier</a></li>
         <li class=""><a href="/stout">Stout</a></li>
     </ul>
 </nav>

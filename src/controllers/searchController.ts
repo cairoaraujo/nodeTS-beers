@@ -12,6 +12,7 @@ export const search = (req: Request, res: Response) =>{
             title: 'pesquisando por: "' + query + '"' ,
             background: "allBeers.jpg",
         },
-        list
+        list,
+        query
     })
 }

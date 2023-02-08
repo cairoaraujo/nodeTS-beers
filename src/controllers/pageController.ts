@@ -19,7 +19,7 @@ export const ipa = (req: Request, res: Response) =>{
     res.render('pages/page',{
         banner:{
             title: "IPA",
-            background: "allBeers.jpg",
+            background: "ipaBanner.png",
         },
         list
     })
@@ -32,7 +32,7 @@ export const witbier = (req: Request, res: Response) =>{
     res.render('pages/page',{
         banner:{
             title: "Witbier",
-            background: "allBeers.jpg",
+            background: "witbierBanner.jpg",
         },
         list
     })
@@ -45,7 +45,7 @@ export const pilsen = (req: Request, res: Response) =>{
     res.render('pages/page',{
         banner:{
             title: "Pilsen",
-            background: "allBeers.jpg",
+            background: "pilsenBanner.png",
         },
         list
     })
@@ -57,7 +57,7 @@ export const stout = (req: Request, res: Response) =>{
     res.render('pages/page',{
         banner:{
             title: "Stout",
-            background: "allBeers.jpg",
+            background: "stoutBanner.jpg",
         },
         list
     })
