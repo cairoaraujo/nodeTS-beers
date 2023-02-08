@@ -7,7 +7,7 @@ export const home = (req: Request, res: Response) =>{
 
     res.render('pages/page',{
         banner:{
-            title: "Todas as cervejass",
+            title: "Todas as cervejas",
             background: "allBeers.jpg",
         },
         list
