@@ -1,0 +1,14 @@
+{{>partials/header}}
+<section class="banner" style="background-image: url('images/{{banner.background}}')">Todas as cervejas</section>
+<h2>Lista de cervejas do tipo {{banner.title}}</h2>
+{{banner.background}}
+<img href= '{{& background}}'>
+<div class="container list">
+    <div class="item">
+        <img src="images/"{{background}} class="item--image" />
+        <div class="item--name">Heineken</div>
+        <div class="item--color">Cor: Amarela</div>
+    </div>
+</div>
+
+{{>partials/footer}}
