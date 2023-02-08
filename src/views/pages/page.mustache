@@ -1,6 +1,5 @@
 {{>partials/header}}
 <section class="banner" style="background-image: url('images/{{banner.background}}')">{{banner.title}}</section>
-<h2>Lista de cervejas do tipo {{banner.title}}</h2>
 <img href= '{{& background}}'>
 <div class="container list">
 
@@ -13,6 +12,13 @@
         <div class="item--color">Lançada em {{releasedDate}}</div>
     </div>
     {{/list}}
+
 </div>
+
+{{^list}}
+    <div class= "container no-list">
+        <h2>Nenhuma cerveja encontrada.</h2>
+    </div>
+{{/list}}
 
 {{>partials/footer}}

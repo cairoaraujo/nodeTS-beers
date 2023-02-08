@@ -72,7 +72,7 @@ export const Beer = {
 
     getFromName: (name: string): Beer[] =>{
         return data.filter(item=>{
-            if(item.name.indexOf(name) > -1){
+            if(item.name.toLowerCase().indexOf(name.toLowerCase()) > -1){
                 return true;
             }
             else{
